@@ -1,0 +1,267 @@
+﻿*, *::after, *::before {
+    font-family: "ubunturegular";
+}
+
+html, body, #main-content, #header {
+    background-color: #f9f9f9;
+}
+
+body {
+    height: 100%;
+}
+
+#main-content {
+    width: 770px;
+    margin-left: 321px;
+    margin-top: 41px;
+}
+
+#root {
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 58px;
+    box-shadow: 4px 0px 10px rgb(93, 109, 151, 10%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-input {
+    margin-left: 215px;
+}
+
+#barGraphContainer {
+    position: relative;
+    width: 770px;
+}
+
+h2 {
+    color: black;
+    opacity: 10%;
+}
+
+#company-naming {
+    cursor: pointer;
+    font-family: "ubuntubold";
+    position: absolute;
+    color: #5D6E97;
+    font-size: 20px;
+    vertical-align: bottom;
+    margin-left: 23px;
+    line-height: 23px;
+}
+
+.has-search .form-control {
+    border-radius: 20px;
+    padding-left: 2.375rem;
+    width: 320px;
+    height: 28px;
+    border: 0px;
+}
+
+.searchButton {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#UX-element {
+    width: 18px;
+    height: 18px;
+}
+
+.enterButton {
+    position: absolute;
+    right: 3.07%;
+    cursor: pointer;
+    justify-self: end;
+}
+
+.avatarBorder {
+    height: 40px;
+    width: 40px;
+    border-radius: 360px;
+    position: absolute;
+    right: 6.82%;
+    cursor: pointer;
+}
+
+#avatar {
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+#screen {
+    height: inherit;
+    margin-top: 58px;
+    display: flex;
+}
+
+#left-menu {
+    position: fixed;
+    width: 215px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 4px 0px 10px rgb(93, 109, 151, 10%);
+}
+
+.menu-item {
+    height: 52px;
+    width: inherit;
+    border: 1px solid rgb(93, 110, 151, 10%);
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgb(93, 109, 151, 100%);
+    margin-left: 53px;
+}
+
+select {
+    font-size: 14px;
+    line-height: 16px;
+    width: 320px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 21px;
+    padding-right: 21px;
+    color: rgb(93, 109, 151, 1);
+    font-family: "ubuntumedium"
+}
+
+option {
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D6D97;
+}
+
+option:checked {
+    background: rgb(93, 109, 151, 10%);
+}
+
+label {
+    margin-bottom: 0px;
+    font-family: "ubuntumedium";
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D6D97;
+    width: 150px;
+}
+
+input[type=date] {
+    width: calc(100% - 165px);
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 21px;
+    padding-right: 21px;
+    color: rgb(93, 109, 151, 1);
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+input[type=date]:disabled {
+    background: #EEE;
+    color: #AAA;
+}
+
+#userId{
+    margin-left: 15px;
+}
+
+input[type=submit], #calculateButton {
+    background: #4A9DFF;
+    border-radius: 10px;
+    border: 0px;
+    width: 189px;
+    height: 38px;
+    color: white;
+}
+
+input[type=submit]:disabled{
+    background: rgb(74, 157, 255, 0.27);
+}
+
+.submitButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mainSelector, form {
+    margin-bottom: 1rem;
+}
+
+#rollingRetention, #tableNaming {
+    font-family: "ubuntumedium";
+    font-size: 20px;
+    line-height: 23px;
+    color: rgb(60, 90, 168, 0.4);
+    margin-top: 1rem;
+}
+
+.deleteButton{
+    background-color: inherit;
+    border: 0px;
+}
+
+.bin{
+    width: 16px;
+    height: 16px;
+}
+
+#usersTable {
+    border-collapse: initial;
+    border-spacing: 0 2px;
+    padding-left: 26px;
+    width: inherit;
+}
+
+#usersTable thead {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(60, 90, 168, 0.4);
+}
+
+#usersTable tbody{
+    background-color: white;
+    border-radius: 5px;
+    color: #5D6E97;
+}
+
+#usersTable tr {
+    height: 45.47px;
+}
+
+#usersTable tr td {
+    padding-left: 26px;
+}
+
+#usersTable tr:first-child td:first-child{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#usersTable tr:first-child td:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
